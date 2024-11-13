@@ -1,0 +1,11 @@
+.add-new{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
