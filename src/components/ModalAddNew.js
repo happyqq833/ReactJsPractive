@@ -31,7 +31,7 @@ const ModalAddNew = (props) => {
     }
 
     return(
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} animation={false}>
                 <Modal.Header closeButton>
                     <Modal.Title>Add new user</Modal.Title>
                 </Modal.Header>
